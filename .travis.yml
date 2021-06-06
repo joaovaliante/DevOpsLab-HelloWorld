@@ -19,9 +19,7 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   edge: true
-  provider: heroku
-  
+  provider: heroku 
   app: teste4linuxjv14
-  api-key: 
-    secure: $HEROKU_API_KEY
+  api-key: $HEROKU_API_KEY
   
