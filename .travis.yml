@@ -21,5 +21,5 @@ deploy:
   provider: heroku
   app: teste4linuxjv14
   api-key: 
-    secure: ef4f75f3-2aef-4087-b793-262f704affc5
+    secure: $HEROKU_API_KEY
   
